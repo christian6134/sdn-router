@@ -6,11 +6,17 @@ The topology simulates a small university network with multiple LANs, a data cen
 
 The router uses OpenFlow to forward packets, enforce firewall rules, and provide basic connectivity between subnets.
 
+
+
+
 PROJECT STRUCTURE
 
 topo.py → Defines the custom Mininet topology (LANs, Data Center, Internet hosts, Core switch).
 
 router.py → Contains the POX/SDN controller logic for packet forwarding and firewall rules.
+
+
+
 
 NETWORK TOPOLOGY
 
@@ -35,6 +41,9 @@ Core Switch connecting all subnets
                                  |
                      [ Internet Hosts & Server ]
 
+
+
+
 REQUIREMENTS
 
 Mininet (2.3.0 or later)
@@ -42,6 +51,9 @@ Mininet (2.3.0 or later)
 POX Controller (OpenFlow 1.0 support)
 
 Python 2.7 or 3.x depending on your Mininet/POX version
+
+
+
 
 RUNNING THE PROJECT
 
@@ -67,6 +79,9 @@ Use the Mininet CLI to test connectivity:
 
 mininet> pingall
 
+
+
+
 FEATURES
 
 Forwarding between 4 LANs and 3 internet-facing devices.
@@ -74,6 +89,9 @@ Forwarding between 4 LANs and 3 internet-facing devices.
 30+ firewall rules to control inter-subnet communication.
 
 Simulation of real-world ISP troubleshooting: ARP failures, IP conflicts, and routing errors.
+
+
+
 
 LEARNING OUTCOMES
 
@@ -86,6 +104,9 @@ Using Mininet to simulate realistic multi-subnet topologies.
 How firewall and forwarding rules impact network connectivity.
 
 Debugging and troubleshooting common network issues in an SDN environment.
+
+
+
 
 AUTHOR
 
