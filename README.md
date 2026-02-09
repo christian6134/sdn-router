@@ -1,5 +1,5 @@
 **SOFTWARE-DEFINED NETWORKING ROUTER**
-
+----------
 This project implements a custom SDN-based router using Mininet and the POX controller.
 
 The topology simulates a small university network with multiple LANs, a data center, and external “internet” hosts.
@@ -8,14 +8,14 @@ The router uses OpenFlow to forward packets, enforce firewall rules, and provide
 
 
 **PROJECT STRUCTURE**
-
+----------
 topo.py → Defines the custom Mininet topology (LANs, Data Center, Internet hosts, Core switch).
 
 router.py → Contains the POX/SDN controller logic for packet forwarding and firewall rules.
 
 
 **LEARNING OUTCOMES**
-
+---------
 This project demonstrates:
 
 - How Software-Defined Networking (SDN) separates control and data planes.
@@ -29,7 +29,7 @@ This project demonstrates:
 
 
 
-AUTHOR
+**AUTHOR**
 
 Christian Garces
 Computer Engineering @ UC Santa Cruz
